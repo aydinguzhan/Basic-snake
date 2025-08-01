@@ -1,12 +1,12 @@
 export default class Creator {
   createCanvas(document: Document): HTMLCanvasElement {
     const canvas = document.createElement("canvas");
-    const size = 600; // veya istersen `innerWidth` ve `innerHeight` dinamik
+    const size = 600;
 
     canvas.width = size;
     canvas.height = size;
 
-    canvas.style.width = `${size}px`; // Görünen boyutla gerçek boyutu eşleştir
+    canvas.style.width = `${size}px`;
     canvas.style.height = `${size}px`;
 
     return canvas;
