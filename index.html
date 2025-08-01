@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <body>
+      <div id="app">
+        <header>Basit Yılan Oyunu 🐍</header>
+        <div class="score">Skor: <span id="score">0</span></div>
+        <!-- Canvas JavaScript ile eklenecek -->
+      </div>
+
+      <!-- Modal -->
+      <div id="game-over-modal" class="modal hidden">
+        <div class="modal-content">
+          <h2>Oyun Bitti!</h2>
+          <p>Skorunuz: <span id="modal-score">0</span></p>
+          <button id="restart-btn">Yeniden Başla</button>
+        </div>
+      </div>
+    </body>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
